@@ -1,6 +1,4 @@
-# coding_corner
-Coding Corner Projects
-
+# Coding Corner
 Lessons for intro to data analysis
 
 Software:
