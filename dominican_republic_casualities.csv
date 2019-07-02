@@ -1,0 +1,21 @@
+FullName,Age,DateFirstSymptoms,ActivityPriorToIllness,IllnessSymptoms,DateOfDeath,CauseOfDeath,LocationName,LocatationLat,LocationLng,AutopsyPerformed,ResultsOfAutopsyReleased,Hometown,Notes
+Khalid Adkins,46,2019-06-23,,Profusely sweating; Vomiting; Leg Swelling,2019-6-25,Kidney Failure,,,,,,"Denver, CO",
+Susan Simoneaux,59,2019-05-24,Honey moon in Dominican Republic,Difficulty Breathing,2018-6-19,,,,,,,LA,Died one week after returning
+Vittorio Caruso,56,2019-06-11,Drinking from minibar,Coughing; Shortness of Breath; Respiratory distress; Chest pain,2019-6-17,Heart Attack; Respiratory Failure,Boca Chica Village (not resort),18.4516018,-69.6159917,,,"Long Island, NY",
+Joseph Allen,55,,Swimming,Pungent smell; unable to speak; upset stomach,2019-6-13,Heart Attack; Pulmonary Edema,Terra Linda Resort ,19.765169,-70.5170027,1,0,NJ,Prior heart issues that include hardening of the arteries; dead between his room and bathroom
+Leyla Cox,53,,,,2019-6-11,Heart Attack,Excellence Punta Cana,18.8202035,-68.6029925,,0,"Staten Island, NY","felt unwell and was taken to the hospital. But in a Sunday statement the resort said Cox, of Staten Island, New York, died in her hotel room"
+Edward Nathaniel Holmes,63,,,,2019-5-30,Internal Bleeding; Bleeding in pancreases,Playa Nueva Romana Hotel,18.4341729,-69.2002348,1,0,Maryland,Enlarged heart and cirrhosis of liver
+Cynthia Day,49,,,,2019-5-30,Internal Bleeding; bleeding in pancreases; fluid in brain,Playa Nueva Romana Hotel,18.4341729,-69.2002348,1,0,Maryland,Fluid in brain
+Miranda Schaup-Werner,41,2019-05-25,Drinking from minibar,Severely ill,2019-5-25,Heart attack; pulmonary edema; respiratory failure,Luxury Bahia Principe Bouganville,18.4341731,-69.1936687,1,0,"Allentown, PA",Drink from minibar suddenly felt ill
+John Corcoran,60,,,,2019-4-21,Natural Causes (Not official),,,,,0,"Edgewater, NJ",Existing heart conditions
+Robert Wallace,67,2019-04-09,Drinking from minibar; scotch,Severely ill; blood in stool in urine,2019-4-21,,Hard Rock Hotel & Casino in Punta Cana,18.7333671,-68.4849367,0,0,,Existing heart conditions; found in hotel room
+Jerry Curran,78,,Drinking,Vomiting,2019-1-26,"Pulmonary Edema, Cerebral Hypoxia, Subdural Hematoma, Severe Encephalitic Cranial Trauma",Dreams Resort Punta Cana,18.8038956,-68.5764801,1,0,"Bedford, OH",
+Antonio Reyes,,,,,2018-8-15,Heart Attack; Pulmonary Edema; Respiratory Insufficiencies,Bahia Principe Resort in Punta Canana,18.7246759,-68.4676509,1,1,"Wake Country, NC",
+David Harrison,45,,,Unable to talk; sit up,2018-7-14,Heart Attack; Pulmonary Edema,Hard Rock Hotel & Casino in Punta Cana,18.7333671,-68.4849367,1,0,,Heart attack and pulomnary edema
+Yvette Monique Sport,51,,Drinking from minibar,,2018-6-1,,Bahia Principe in Punta Cana,18.7246759,-68.4676509,1,0,"Glenside, PA",Family still awaiting toxicology reports as of 17 June 2019; urged to cremate body
+Chris Palmer,41,,,Feeling ill; severe headache,2018-4-18,Heart Attack; Pulmonary Edema,Villa Cocotal Palma Resort,18.6662099,-68.4289623,,,,
+Barbara Diane Maser-Mitchell,69,,Drinking at bar,Felt Ill,2016-9-17,Heart Attack,Excellence resort in Punta Cana,18.8202035,-68.6029925,,,,
+Donette Edge Cannon,38,,,Vomiting; Diarrhea; Stomach ache; Unconscious,2018-5-14,Kidney Failure,(former) Sunscape Bávaro Beach Punta Cana,18.688661,-68.4196797,,,,
+Melissa Rycroft,36,,,,,Alive,Nickelodeon Resort,18.8002434,-68.5766202,,,,
+Awilda Montes,43,2018-10-25,Drinking from minibar; 7-Up,Vomited Blood,,Alive,Bahia Principe Resort in Punta Canana,18.7246759,-68.4676509,,,"Queens, NY",Was asked to sign NDA. Chemical Burns. No sensation in tongue. 
+Kaylynn Knull,,2018-06-01,Room smelled of chemicals,Drooling excessively; profusely sweating,,Alive,Grand Bahia Principe la Romana,18.4355469,-69.1920872,,,CO,"US doctor: organophosphate poisoning, meaning they had probably been exposed to pesticides; suing for damages"
