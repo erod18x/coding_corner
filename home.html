@@ -1,0 +1,105 @@
+{% extends 'test-page.html' %}
+{%block body%}
+
+<!--Date Picker -->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+	$( function() {
+    	var dateFormat = "yyyy/mm/dd",
+      	from = $( "#from" )
+        	.datepicker({
+          	defaultDate: "+1w",
+          	changeMonth: true,
+			changeYear: true,
+          	numberOfMonths: 3
+        })
+        .on("change",function() {
+        	to.datepicker( "option", "minDate", getDate( this ) );
+        }),
+      	to = $("#to").datepicker({
+			defaultDate: "+1w",
+        	changeMonth: true,
+			cahngeYear: true,
+        	numberOfMonths: 3
+      	})
+      	.on("change",function() {
+        	from.datepicker( "option", "maxDate", getDate( this ) );
+      	});
+ 
+    	function getDate(element) {
+      		var date;
+      		try {
+        		date = $.datepicker.parseDate( dateFormat, element.value );
+      		} catch(error) {
+        		date = null;
+      		} 
+      		return date;
+    	}
+	});
+</script>
+
+<div class = "row">
+    <div class ="col-md-6 col-sm-6">
+		<div class = "card">
+			<div class="card-header">
+				Date Selection
+			</div>
+			<div class = "card-body">
+				<label for="from">From</label>
+				<input type="text" id="from" name="from">
+				<label for="to">to</label>
+				<input type="text" id="to" name="to">
+			</div>
+		</div>
+	</div>
+                
+	<div class ="col-md-6 col-sm-6">
+		<div class="card">
+			<div class="card-header">
+				Site Selection
+			</div>
+			<div class = "card-body">
+				<input type="checkbox" name="Site4"/> Site 4 &emsp;&emsp;
+				<input type="checkbox" name="Site5"/>  Site 5 &emsp;&emsp;
+				<input type="checkbox" name="All"/> Select All
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class = "col-lg-12">
+		<div class = "card">
+			<div class="card-header">
+				Map
+			</div>
+			<div class = "card-body">
+				<div id="map" style="height: 700px;"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class = "col-lg-6">
+		<div class = "card">
+			<div class = "content">
+				{{ script2|safe }}
+				{{ div2|safe }}
+			</div>
+		</div>
+	</div>
+
+	<div class = "col-lg-6">
+		<div class = "card">
+			<div class = "content">
+				{{script4|safe}}
+				{{div4|safe}}
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
